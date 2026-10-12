@@ -1,0 +1,438 @@
+{
+  "description": "Byte-level identity and structural validation of author-retained sealed arrays; original image-keyed arrays are not redistributed.",
+  "record_count": 16,
+  "records": [
+    {
+      "protocol": "protocol1",
+      "model_run": "M1_mobilenetv3_large_seed20260928",
+      "sha256": "27d4e71df3144f93ddb4ab0d2d7f99130c25f8c162abb6eb93bb1544d60568f9",
+      "bytes": 1902919,
+      "arrays": {
+        "logits": {
+          "shape": [
+            22326,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            22326
+          ],
+          "dtype": "<U19"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol1",
+      "model_run": "M1_mobilenetv3_large_seed20260929",
+      "sha256": "5b3ca2fd64ae9052dc67ef63661917ea1964b5e7bc16f92496cbe8e0339c5ee6",
+      "bytes": 1909825,
+      "arrays": {
+        "logits": {
+          "shape": [
+            22326,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            22326
+          ],
+          "dtype": "<U19"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol1",
+      "model_run": "M1_mobilenetv3_large_seed20260930",
+      "sha256": "d4cf8d842020b771c75414ad31e52f53dcaf9266fec38a75b292e2e7f60fe22a",
+      "bytes": 1904982,
+      "arrays": {
+        "logits": {
+          "shape": [
+            22326,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            22326
+          ],
+          "dtype": "<U19"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol1",
+      "model_run": "M2_dinov2_small",
+      "sha256": "de3bb3c3debc2a717e3fc4d7ffef975eb21828e291be5d5ed9889e779272b2dd",
+      "bytes": 5689398,
+      "arrays": {
+        "logits": {
+          "shape": [
+            22326,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            22326
+          ],
+          "dtype": "<U19"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol1",
+      "model_run": "M3_convnext_tiny_seed20260928",
+      "sha256": "dbfcddabc96fe2970f4a032fb7dc2e334d6b1de6d3deec6cc4eeda67ea711a37",
+      "bytes": 1870160,
+      "arrays": {
+        "logits": {
+          "shape": [
+            22326,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            22326
+          ],
+          "dtype": "<U19"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol1",
+      "model_run": "M3_convnext_tiny_seed20260929",
+      "sha256": "00e906d0b73ea25dbe6b42b656e2d919774423b85d062594ac36c50b3640952a",
+      "bytes": 1878146,
+      "arrays": {
+        "logits": {
+          "shape": [
+            22326,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            22326
+          ],
+          "dtype": "<U19"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol1",
+      "model_run": "M3_convnext_tiny_seed20260930",
+      "sha256": "8d0e2f76217305f0b6d60fd996731e5a127b6e8465c591537b44e4fc7e63b002",
+      "bytes": 1859315,
+      "arrays": {
+        "logits": {
+          "shape": [
+            22326,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            22326
+          ],
+          "dtype": "<U19"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol1",
+      "model_run": "M4_dinov2_base",
+      "sha256": "d5ef64fa06d330c6d6f1147ca28a56e6e7c59ecc5e1a7ad2e2733681d753ce26",
+      "bytes": 5689213,
+      "arrays": {
+        "logits": {
+          "shape": [
+            22326,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            22326
+          ],
+          "dtype": "<U19"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol2",
+      "model_run": "M1_mobilenetv3_large_seed20260928",
+      "sha256": "8042f39697a017a7a86026cdebab6e09c0dc021fc90d0814ba2a0b61dfa55dc4",
+      "bytes": 2668219,
+      "arrays": {
+        "logits": {
+          "shape": [
+            26320,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            26320
+          ],
+          "dtype": "<U36"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol2",
+      "model_run": "M1_mobilenetv3_large_seed20260929",
+      "sha256": "1c7bd29d22ccad899fe84ca7822da3ec1fbde0aae68fd01807988c388b43dc70",
+      "bytes": 2655752,
+      "arrays": {
+        "logits": {
+          "shape": [
+            26320,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            26320
+          ],
+          "dtype": "<U36"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol2",
+      "model_run": "M1_mobilenetv3_large_seed20260930",
+      "sha256": "c70cca40e1b634264ee2b9acc3c15369e16b6f654ad38c8f1b0aaad4364ed043",
+      "bytes": 2642305,
+      "arrays": {
+        "logits": {
+          "shape": [
+            26320,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            26320
+          ],
+          "dtype": "<U36"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol2",
+      "model_run": "M2_dinov2_small",
+      "sha256": "8b2188e1aca5ce29a2629e678c3fd9206c37a8fb07ad55d18a5a94fdf7c3efcc",
+      "bytes": 7863918,
+      "arrays": {
+        "logits": {
+          "shape": [
+            26320,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            26320
+          ],
+          "dtype": "<U36"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol2",
+      "model_run": "M3_convnext_tiny_seed20260928",
+      "sha256": "8fd4caf8d604ca41e81d35764e99c62a0d6c6f5732cc4db89a2ae5b65b4c3c8a",
+      "bytes": 2613305,
+      "arrays": {
+        "logits": {
+          "shape": [
+            26320,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            26320
+          ],
+          "dtype": "<U36"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol2",
+      "model_run": "M3_convnext_tiny_seed20260929",
+      "sha256": "40a2b2b7e873d28b5e9cf2b37ce7c9a1b8754b17b67ad2030e8c81b57779ffb0",
+      "bytes": 2642711,
+      "arrays": {
+        "logits": {
+          "shape": [
+            26320,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            26320
+          ],
+          "dtype": "<U36"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol2",
+      "model_run": "M3_convnext_tiny_seed20260930",
+      "sha256": "a4ba4f530bf1e21cec7f7770e21eff827cd8c548d0157bf8272fb3d23ae657b3",
+      "bytes": 2612058,
+      "arrays": {
+        "logits": {
+          "shape": [
+            26320,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            26320
+          ],
+          "dtype": "<U36"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    },
+    {
+      "protocol": "protocol2",
+      "model_run": "M4_dinov2_base",
+      "sha256": "667febae16a92f09aa0a553eae7bbc998b8986bc6cb8163f5f271b82e3a19a41",
+      "bytes": 7865509,
+      "arrays": {
+        "logits": {
+          "shape": [
+            26320,
+            38
+          ],
+          "dtype": "float64"
+        },
+        "ids": {
+          "shape": [
+            26320
+          ],
+          "dtype": "<U36"
+        },
+        "classes": {
+          "shape": [
+            38
+          ],
+          "dtype": "<U50"
+        }
+      }
+    }
+  ]
+}

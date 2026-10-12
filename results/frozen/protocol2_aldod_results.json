@@ -1,0 +1,289 @@
+{
+ "protocol": "PROTOCOL_ALDOD_v1",
+ "primary": {
+  "estimand": "D = I_healthy - I_diseased (M1 vs M2), primary cohort, resize, 38-class",
+  "estimate_pp": 20.762,
+  "ci95_pp": [
+   16.778,
+   24.609
+  ],
+  "outcome": "meaningful_difference",
+  "direction": "reproduced (CI > 0)",
+  "p_permutation": 9.999000099990002e-05,
+  "n_healthy": 655,
+  "n_diseased": 2329
+ },
+ "secondary": {
+  "I_healthy": {
+   "estimate_pp": 20.662,
+   "ci95_pp": [
+    16.945,
+    24.275
+   ],
+   "outcome": "meaningful_difference",
+   "p_signflip": 9.999000099990002e-05,
+   "n": 655,
+   "p_holm": 0.0004999500049995
+  },
+  "I_diseased": {
+   "estimate_pp": -0.1,
+   "ci95_pp": [
+    -1.575,
+    1.417
+   ],
+   "outcome": "negligible",
+   "p_signflip": 0.9108089191080891,
+   "n": 2329,
+   "p_holm": 0.9108089191080891
+  },
+  "D_ext_M3_M4": {
+   "estimate_pp": -11.095,
+   "ci95_pp": [
+    -14.586,
+    -7.563
+   ],
+   "outcome": "meaningful_difference",
+   "direction": "reversal (CI < 0)",
+   "p_permutation": 9.999000099990002e-05,
+   "n_healthy": 655,
+   "n_diseased": 2329,
+   "p_holm": 0.0004999500049995
+  },
+  "D_letterbox": {
+   "estimate_pp": 6.568,
+   "ci95_pp": [
+    2.828,
+    10.398
+   ],
+   "outcome": "meaningful_difference",
+   "direction": "reproduced (CI > 0)",
+   "p_permutation": 0.00019998000199980003,
+   "n_healthy": 655,
+   "n_diseased": 2329,
+   "p_holm": 0.0004999500049995
+  },
+  "D_apple_only_output": {
+   "estimate_pp": 32.166,
+   "ci95_pp": [
+    28.51,
+    35.703
+   ],
+   "outcome": "meaningful_difference",
+   "direction": "reproduced (CI > 0)",
+   "p_permutation": 9.999000099990002e-05,
+   "n_healthy": 655,
+   "n_diseased": 2329,
+   "p_holm": 0.0004999500049995
+  }
+ },
+ "descriptive": {
+  "accuracy_pct": {
+   "M1_mobilenetv3_large": {
+    "healthy": {
+     "F": 5.9,
+     "C": 29.31
+    },
+    "diseased": {
+     "F": 3.01,
+     "C": 5.35
+    }
+   },
+   "M2_dinov2_small": {
+    "healthy": {
+     "F": 81.53,
+     "C": 84.27
+    },
+    "diseased": {
+     "F": 16.75,
+     "C": 19.19
+    }
+   },
+   "M3_convnext_tiny": {
+    "healthy": {
+     "F": 1.48,
+     "C": 7.23
+    },
+    "diseased": {
+     "F": 6.44,
+     "C": 13.75
+    }
+   },
+   "M4_dinov2_base": {
+    "healthy": {
+     "F": 65.5,
+     "C": 73.74
+    },
+    "diseased": {
+     "F": 20.87,
+     "C": 19.58
+    }
+   }
+  },
+  "host_retention_pct": {
+   "M1_mobilenetv3_large": {
+    "healthy": {
+     "F": 12.11,
+     "C": 34.35
+    },
+    "diseased": {
+     "F": 8.06,
+     "C": 20.95
+    }
+   },
+   "M2_dinov2_small": {
+    "healthy": {
+     "F": 91.91,
+     "C": 91.15
+    },
+    "diseased": {
+     "F": 85.7,
+     "C": 87.29
+    }
+   },
+   "M3_convnext_tiny": {
+    "healthy": {
+     "F": 16.03,
+     "C": 29.11
+    },
+    "diseased": {
+     "F": 17.09,
+     "C": 33.85
+    }
+   },
+   "M4_dinov2_base": {
+    "healthy": {
+     "F": 93.74,
+     "C": 92.21
+    },
+    "diseased": {
+     "F": 91.11,
+     "C": 92.79
+    }
+   }
+  },
+  "Delta_by_group_pp": {
+   "M1_mobilenetv3_large": {
+    "healthy": 23.41,
+    "diseased": 2.35
+   },
+   "M2_dinov2_small": {
+    "healthy": 2.75,
+    "diseased": 2.45
+   },
+   "M3_convnext_tiny": {
+    "healthy": 5.75,
+    "diseased": 7.31
+   },
+   "M4_dinov2_base": {
+    "healthy": 8.24,
+    "diseased": -1.29
+   }
+  },
+  "I_per_disease": {
+   "apple_black_rot": {
+    "estimate_pp": 4.865,
+    "ci95_pp": [
+     2.509,
+     7.26
+    ],
+    "n": 877,
+    "Delta_M1_pp": 4.18,
+    "Delta_M2_pp": -0.68
+   },
+   "apple_rust": {
+    "estimate_pp": -4.654,
+    "ci95_pp": [
+     -6.881,
+     -2.426
+    ],
+    "n": 838,
+    "Delta_M1_pp": 0.84,
+    "Delta_M2_pp": 5.49
+   },
+   "apple_scab": {
+    "estimate_pp": -0.977,
+    "ci95_pp": [
+     -4.235,
+     2.226
+    ],
+    "n": 614,
+    "Delta_M1_pp": 1.79,
+    "Delta_M2_pp": 2.77
+   }
+  },
+  "D_per_M1_seed": {
+   "20260928": 14.6,
+   "20260929": 18.95,
+   "20260930": 28.74
+  },
+  "box_fraction_tertiles": {
+   "T1": {
+    "box_frac_range": [
+     0.0,
+     0.334
+    ],
+    "n_healthy": 212,
+    "n_diseased": 783,
+    "I_healthy_pp": 19.65,
+    "I_diseased_pp": -1.36
+   },
+   "T2": {
+    "box_frac_range": [
+     0.334,
+     0.429
+    ],
+    "n_healthy": 203,
+    "n_diseased": 791,
+    "I_healthy_pp": 18.56,
+    "I_diseased_pp": 1.18
+   },
+   "T3": {
+    "box_frac_range": [
+     0.429,
+     1.0
+    ],
+    "n_healthy": 240,
+    "n_diseased": 755,
+    "I_healthy_pp": 23.33,
+    "I_diseased_pp": -0.13
+   }
+  },
+  "largebox_cohort": {
+   "D": {
+    "estimate_pp": 9.171,
+    "ci95_pp": [
+     6.78,
+     11.573
+    ],
+    "outcome": "meaningful_difference",
+    "direction": "reproduced (CI > 0)",
+    "n_healthy": 712,
+    "n_diseased": 2884
+   },
+   "I_healthy_pp": 9.69,
+   "I_diseased_pp": 0.52
+  },
+  "transitions_first_seed": {
+   "M1_mobilenetv3_large": {
+    "healthy": {
+     "wrong_to_right": 126,
+     "right_to_wrong": 0
+    },
+    "diseased": {
+     "wrong_to_right": 162,
+     "right_to_wrong": 61
+    }
+   },
+   "M2_dinov2_small": {
+    "healthy": {
+     "wrong_to_right": 46,
+     "right_to_wrong": 28
+    },
+    "diseased": {
+     "wrong_to_right": 168,
+     "right_to_wrong": 111
+    }
+   }
+  }
+ }
+}

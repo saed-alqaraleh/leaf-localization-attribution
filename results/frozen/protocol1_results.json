@@ -1,0 +1,1058 @@
+{
+ "delta_pp": 5.0,
+ "bootstrap_B": 10000,
+ "rng_seed": 20260928,
+ "cohorts": {
+  "fieldplant_primary": {
+   "n_parents": 1273,
+   "n_classes": 5,
+   "accuracy": {
+    "M1_mobilenetv3_large": {
+     "F": {
+      "acc_pp": 11.18,
+      "ci95_pp": [
+       9.79,
+       12.65
+      ],
+      "macro_f1": 0.1135,
+      "host_retention": 0.2962,
+      "within_host_acc": 0.3771,
+      "ece": 0.4543
+     },
+     "C": {
+      "acc_pp": 17.39,
+      "ci95_pp": [
+       15.66,
+       19.17
+      ],
+      "macro_f1": 0.1601,
+      "host_retention": 0.4808,
+      "within_host_acc": 0.3615,
+      "ece": 0.3661
+     },
+     "M": {
+      "acc_pp": 22.44,
+      "ci95_pp": [
+       20.66,
+       24.3
+      ],
+      "macro_f1": 0.121,
+      "host_retention": 0.7777,
+      "within_host_acc": 0.2964,
+      "ece": 0.209
+     },
+     "transitions_C_vs_F_per_seed": [
+      {
+       "both_right": 142,
+       "F_right_C_wrong": 20,
+       "F_wrong_C_right": 77,
+       "both_wrong": 1034
+      },
+      {
+       "both_right": 105,
+       "F_right_C_wrong": 15,
+       "F_wrong_C_right": 94,
+       "both_wrong": 1059
+      },
+      {
+       "both_right": 125,
+       "F_right_C_wrong": 20,
+       "F_wrong_C_right": 121,
+       "both_wrong": 1007
+      }
+     ]
+    },
+    "M2_dinov2_small": {
+     "F": {
+      "acc_pp": 61.27,
+      "ci95_pp": [
+       58.6,
+       63.94
+      ],
+      "macro_f1": 0.2328,
+      "host_retention": 0.9921,
+      "within_host_acc": 0.6176,
+      "ece": 0.2409
+     },
+     "C": {
+      "acc_pp": 63.32,
+      "ci95_pp": [
+       60.64,
+       65.91
+      ],
+      "macro_f1": 0.2849,
+      "host_retention": 0.9929,
+      "within_host_acc": 0.6377,
+      "ece": 0.2367
+     },
+     "M": {
+      "acc_pp": 56.48,
+      "ci95_pp": [
+       53.81,
+       59.15
+      ],
+      "macro_f1": 0.2763,
+      "host_retention": 0.9921,
+      "within_host_acc": 0.5693,
+      "ece": 0.3064
+     },
+     "transitions_C_vs_F_per_seed": [
+      {
+       "both_right": 710,
+       "F_right_C_wrong": 70,
+       "F_wrong_C_right": 96,
+       "both_wrong": 397
+      }
+     ]
+    },
+    "M3_convnext_tiny": {
+     "F": {
+      "acc_pp": 10.11,
+      "ci95_pp": [
+       8.72,
+       11.57
+      ],
+      "macro_f1": 0.0744,
+      "host_retention": 0.288,
+      "within_host_acc": 0.3646,
+      "ece": 0.6243
+     },
+     "C": {
+      "acc_pp": 16.5,
+      "ci95_pp": [
+       14.77,
+       18.28
+      ],
+      "macro_f1": 0.1312,
+      "host_retention": 0.4454,
+      "within_host_acc": 0.3769,
+      "ece": 0.5347
+     },
+     "M": {
+      "acc_pp": 14.22,
+      "ci95_pp": [
+       12.62,
+       15.89
+      ],
+      "macro_f1": 0.0831,
+      "host_retention": 0.3763,
+      "within_host_acc": 0.3783,
+      "ece": 0.5323
+     },
+     "transitions_C_vs_F_per_seed": [
+      {
+       "both_right": 91,
+       "F_right_C_wrong": 10,
+       "F_wrong_C_right": 82,
+       "both_wrong": 1090
+      },
+      {
+       "both_right": 126,
+       "F_right_C_wrong": 17,
+       "F_wrong_C_right": 113,
+       "both_wrong": 1017
+      },
+      {
+       "both_right": 129,
+       "F_right_C_wrong": 13,
+       "F_wrong_C_right": 89,
+       "both_wrong": 1042
+      }
+     ]
+    },
+    "M4_dinov2_base": {
+     "F": {
+      "acc_pp": 42.97,
+      "ci95_pp": [
+       40.22,
+       45.72
+      ],
+      "macro_f1": 0.2938,
+      "host_retention": 0.9984,
+      "within_host_acc": 0.4304,
+      "ece": 0.424
+     },
+     "C": {
+      "acc_pp": 45.56,
+      "ci95_pp": [
+       42.81,
+       48.31
+      ],
+      "macro_f1": 0.3246,
+      "host_retention": 0.9961,
+      "within_host_acc": 0.4574,
+      "ece": 0.4078
+     },
+     "M": {
+      "acc_pp": 49.33,
+      "ci95_pp": [
+       46.58,
+       52.08
+      ],
+      "macro_f1": 0.3178,
+      "host_retention": 0.9984,
+      "within_host_acc": 0.4941,
+      "ece": 0.3779
+     },
+     "transitions_C_vs_F_per_seed": [
+      {
+       "both_right": 486,
+       "F_right_C_wrong": 61,
+       "F_wrong_C_right": 94,
+       "both_wrong": 632
+      }
+     ]
+    }
+   },
+   "per_class": [
+    {
+     "pv_class": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+     "n": 30,
+     "Delta_M1_mobilenetv3_large_pp": 42.22,
+     "Delta_M2_dinov2_small_pp": 16.67,
+     "I_core_pp": 25.56
+    },
+    {
+     "pv_class": "Corn_(maize)___Common_rust_",
+     "n": 41,
+     "Delta_M1_mobilenetv3_large_pp": 1.63,
+     "Delta_M2_dinov2_small_pp": 2.44,
+     "I_core_pp": -0.81
+    },
+    {
+     "pv_class": "Corn_(maize)___Northern_Leaf_Blight",
+     "n": 1066,
+     "Delta_M1_mobilenetv3_large_pp": 5.32,
+     "Delta_M2_dinov2_small_pp": 1.88,
+     "I_core_pp": 3.44
+    },
+    {
+     "pv_class": "Corn_(maize)___healthy",
+     "n": 73,
+     "Delta_M1_mobilenetv3_large_pp": 11.87,
+     "Delta_M2_dinov2_small_pp": -1.37,
+     "I_core_pp": 13.24
+    },
+    {
+     "pv_class": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+     "n": 63,
+     "Delta_M1_mobilenetv3_large_pp": 0.53,
+     "Delta_M2_dinov2_small_pp": 1.59,
+     "I_core_pp": -1.06
+    }
+   ],
+   "I_core_class_balanced_pp": 8.074,
+   "I_core_per_M1_seed_pp": [
+    2.435,
+    4.163,
+    5.892
+   ]
+  },
+  "plantdoc_primary": {
+   "n_parents": 2185,
+   "n_classes": 24,
+   "accuracy": {
+    "M1_mobilenetv3_large": {
+     "F": {
+      "acc_pp": 16.23,
+      "ci95_pp": [
+       14.9,
+       17.56
+      ],
+      "macro_f1": 0.1672,
+      "host_retention": 0.3285,
+      "within_host_acc": 0.495,
+      "ece": 0.3774
+     },
+     "C": {
+      "acc_pp": 25.43,
+      "ci95_pp": [
+       23.83,
+       27.05
+      ],
+      "macro_f1": 0.2554,
+      "host_retention": 0.4624,
+      "within_host_acc": 0.5502,
+      "ece": 0.2897
+     },
+     "M": {
+      "acc_pp": 13.12,
+      "ci95_pp": [
+       11.98,
+       14.28
+      ],
+      "macro_f1": 0.1232,
+      "host_retention": 0.2554,
+      "within_host_acc": 0.526,
+      "ece": 0.2472
+     },
+     "transitions_C_vs_F_per_seed": [
+      {
+       "both_right": 328,
+       "F_right_C_wrong": 36,
+       "F_wrong_C_right": 255,
+       "both_wrong": 1566
+      },
+      {
+       "both_right": 318,
+       "F_right_C_wrong": 40,
+       "F_wrong_C_right": 221,
+       "both_wrong": 1606
+      },
+      {
+       "both_right": 309,
+       "F_right_C_wrong": 33,
+       "F_wrong_C_right": 236,
+       "both_wrong": 1607
+      }
+     ]
+    },
+    "M2_dinov2_small": {
+     "F": {
+      "acc_pp": 40.09,
+      "ci95_pp": [
+       38.03,
+       42.2
+      ],
+      "macro_f1": 0.4094,
+      "host_retention": 0.6929,
+      "within_host_acc": 0.5786,
+      "ece": 0.386
+     },
+     "C": {
+      "acc_pp": 40.05,
+      "ci95_pp": [
+       37.99,
+       42.15
+      ],
+      "macro_f1": 0.395,
+      "host_retention": 0.714,
+      "within_host_acc": 0.5609,
+      "ece": 0.3911
+     },
+     "M": {
+      "acc_pp": 35.15,
+      "ci95_pp": [
+       33.09,
+       37.21
+      ],
+      "macro_f1": 0.3634,
+      "host_retention": 0.6426,
+      "within_host_acc": 0.547,
+      "ece": 0.4497
+     },
+     "transitions_C_vs_F_per_seed": [
+      {
+       "both_right": 712,
+       "F_right_C_wrong": 164,
+       "F_wrong_C_right": 163,
+       "both_wrong": 1146
+      }
+     ]
+    },
+    "M3_convnext_tiny": {
+     "F": {
+      "acc_pp": 12.46,
+      "ci95_pp": [
+       11.29,
+       13.67
+      ],
+      "macro_f1": 0.131,
+      "host_retention": 0.2651,
+      "within_host_acc": 0.4699,
+      "ece": 0.5842
+     },
+     "C": {
+      "acc_pp": 19.48,
+      "ci95_pp": [
+       18.05,
+       20.96
+      ],
+      "macro_f1": 0.2045,
+      "host_retention": 0.3643,
+      "within_host_acc": 0.535,
+      "ece": 0.5132
+     },
+     "M": {
+      "acc_pp": 12.57,
+      "ci95_pp": [
+       11.41,
+       13.78
+      ],
+      "macro_f1": 0.1231,
+      "host_retention": 0.3187,
+      "within_host_acc": 0.3942,
+      "ece": 0.5432
+     },
+     "transitions_C_vs_F_per_seed": [
+      {
+       "both_right": 238,
+       "F_right_C_wrong": 20,
+       "F_wrong_C_right": 183,
+       "both_wrong": 1744
+      },
+      {
+       "both_right": 279,
+       "F_right_C_wrong": 33,
+       "F_wrong_C_right": 185,
+       "both_wrong": 1688
+      },
+      {
+       "both_right": 221,
+       "F_right_C_wrong": 26,
+       "F_wrong_C_right": 171,
+       "both_wrong": 1767
+      }
+     ]
+    },
+    "M4_dinov2_base": {
+     "F": {
+      "acc_pp": 44.99,
+      "ci95_pp": [
+       42.88,
+       47.05
+      ],
+      "macro_f1": 0.4549,
+      "host_retention": 0.7913,
+      "within_host_acc": 0.5685,
+      "ece": 0.3539
+     },
+     "C": {
+      "acc_pp": 46.27,
+      "ci95_pp": [
+       44.16,
+       48.38
+      ],
+      "macro_f1": 0.4592,
+      "host_retention": 0.8041,
+      "within_host_acc": 0.5754,
+      "ece": 0.353
+     },
+     "M": {
+      "acc_pp": 40.23,
+      "ci95_pp": [
+       38.17,
+       42.29
+      ],
+      "macro_f1": 0.411,
+      "host_retention": 0.719,
+      "within_host_acc": 0.5595,
+      "ece": 0.4085
+     },
+     "transitions_C_vs_F_per_seed": [
+      {
+       "both_right": 858,
+       "F_right_C_wrong": 125,
+       "F_wrong_C_right": 153,
+       "both_wrong": 1049
+      }
+     ]
+    }
+   },
+   "per_class": [
+    {
+     "pv_class": "Apple___Apple_scab",
+     "n": 92,
+     "Delta_M1_mobilenetv3_large_pp": 4.71,
+     "Delta_M2_dinov2_small_pp": 5.43,
+     "I_core_pp": -0.72
+    },
+    {
+     "pv_class": "Apple___Cedar_apple_rust",
+     "n": 89,
+     "Delta_M1_mobilenetv3_large_pp": 2.25,
+     "Delta_M2_dinov2_small_pp": 3.37,
+     "I_core_pp": -1.12
+    },
+    {
+     "pv_class": "Apple___healthy",
+     "n": 91,
+     "Delta_M1_mobilenetv3_large_pp": 37.73,
+     "Delta_M2_dinov2_small_pp": 4.4,
+     "I_core_pp": 33.33
+    },
+    {
+     "pv_class": "Blueberry___healthy",
+     "n": 116,
+     "Delta_M1_mobilenetv3_large_pp": 11.21,
+     "Delta_M2_dinov2_small_pp": -0.86,
+     "I_core_pp": 12.07
+    },
+    {
+     "pv_class": "Cherry_(including_sour)___healthy",
+     "n": 57,
+     "Delta_M1_mobilenetv3_large_pp": -4.09,
+     "Delta_M2_dinov2_small_pp": 1.75,
+     "I_core_pp": -5.85
+    },
+    {
+     "pv_class": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+     "n": 62,
+     "Delta_M1_mobilenetv3_large_pp": 5.38,
+     "Delta_M2_dinov2_small_pp": 4.84,
+     "I_core_pp": 0.54
+    },
+    {
+     "pv_class": "Corn_(maize)___Common_rust_",
+     "n": 112,
+     "Delta_M1_mobilenetv3_large_pp": 2.38,
+     "Delta_M2_dinov2_small_pp": -1.79,
+     "I_core_pp": 4.17
+    },
+    {
+     "pv_class": "Grape___Black_rot",
+     "n": 64,
+     "Delta_M1_mobilenetv3_large_pp": 6.77,
+     "Delta_M2_dinov2_small_pp": 1.56,
+     "I_core_pp": 5.21
+    },
+    {
+     "pv_class": "Grape___healthy",
+     "n": 69,
+     "Delta_M1_mobilenetv3_large_pp": 18.36,
+     "Delta_M2_dinov2_small_pp": -8.7,
+     "I_core_pp": 27.05
+    },
+    {
+     "pv_class": "Peach___healthy",
+     "n": 112,
+     "Delta_M1_mobilenetv3_large_pp": 1.79,
+     "Delta_M2_dinov2_small_pp": -17.86,
+     "I_core_pp": 19.64
+    },
+    {
+     "pv_class": "Pepper,_bell___healthy",
+     "n": 61,
+     "Delta_M1_mobilenetv3_large_pp": 27.32,
+     "Delta_M2_dinov2_small_pp": -6.56,
+     "I_core_pp": 33.88
+    },
+    {
+     "pv_class": "Potato___Early_blight",
+     "n": 108,
+     "Delta_M1_mobilenetv3_large_pp": 3.7,
+     "Delta_M2_dinov2_small_pp": 6.48,
+     "I_core_pp": -2.78
+    },
+    {
+     "pv_class": "Potato___Late_blight",
+     "n": 99,
+     "Delta_M1_mobilenetv3_large_pp": 8.42,
+     "Delta_M2_dinov2_small_pp": 7.07,
+     "I_core_pp": 1.35
+    },
+    {
+     "pv_class": "Raspberry___healthy",
+     "n": 119,
+     "Delta_M1_mobilenetv3_large_pp": 14.01,
+     "Delta_M2_dinov2_small_pp": 12.61,
+     "I_core_pp": 1.4
+    },
+    {
+     "pv_class": "Soybean___healthy",
+     "n": 65,
+     "Delta_M1_mobilenetv3_large_pp": 23.08,
+     "Delta_M2_dinov2_small_pp": 13.85,
+     "I_core_pp": 9.23
+    },
+    {
+     "pv_class": "Squash___Powdery_mildew",
+     "n": 130,
+     "Delta_M1_mobilenetv3_large_pp": 10.77,
+     "Delta_M2_dinov2_small_pp": 3.85,
+     "I_core_pp": 6.92
+    },
+    {
+     "pv_class": "Strawberry___healthy",
+     "n": 96,
+     "Delta_M1_mobilenetv3_large_pp": 21.53,
+     "Delta_M2_dinov2_small_pp": -16.67,
+     "I_core_pp": 38.19
+    },
+    {
+     "pv_class": "Tomato___Bacterial_spot",
+     "n": 107,
+     "Delta_M1_mobilenetv3_large_pp": 0.62,
+     "Delta_M2_dinov2_small_pp": 1.87,
+     "I_core_pp": -1.25
+    },
+    {
+     "pv_class": "Tomato___Early_blight",
+     "n": 77,
+     "Delta_M1_mobilenetv3_large_pp": 6.93,
+     "Delta_M2_dinov2_small_pp": 2.6,
+     "I_core_pp": 4.33
+    },
+    {
+     "pv_class": "Tomato___Late_blight",
+     "n": 110,
+     "Delta_M1_mobilenetv3_large_pp": 18.79,
+     "Delta_M2_dinov2_small_pp": 0.91,
+     "I_core_pp": 17.88
+    },
+    {
+     "pv_class": "Tomato___Leaf_Mold",
+     "n": 90,
+     "Delta_M1_mobilenetv3_large_pp": 2.22,
+     "Delta_M2_dinov2_small_pp": -1.11,
+     "I_core_pp": 3.33
+    },
+    {
+     "pv_class": "Tomato___Septoria_leaf_spot",
+     "n": 146,
+     "Delta_M1_mobilenetv3_large_pp": 2.74,
+     "Delta_M2_dinov2_small_pp": 1.37,
+     "I_core_pp": 1.37
+    },
+    {
+     "pv_class": "Tomato___Tomato_mosaic_virus",
+     "n": 53,
+     "Delta_M1_mobilenetv3_large_pp": -0.63,
+     "Delta_M2_dinov2_small_pp": 0.0,
+     "I_core_pp": -0.63
+    },
+    {
+     "pv_class": "Tomato___healthy",
+     "n": 60,
+     "Delta_M1_mobilenetv3_large_pp": -5.0,
+     "Delta_M2_dinov2_small_pp": -30.0,
+     "I_core_pp": 25.0
+    }
+   ],
+   "I_core_class_balanced_pp": 9.689,
+   "I_core_per_M1_seed_pp": [
+    10.069,
+    8.33,
+    9.336
+   ]
+  }
+ },
+ "box_frac_tertile_cuts": [
+  0.1718,
+  0.4886
+ ],
+ "fieldplant_all_contrasts": {
+  "Delta_M1": {
+   "estimate_pp": 6.206,
+   "ci95_pp": [
+    5.054,
+    7.384
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 1273
+  },
+  "Delta_M2": {
+   "estimate_pp": 2.042,
+   "ci95_pp": [
+    0.079,
+    4.006
+   ],
+   "p_signflip": 0.052094790520947905,
+   "outcome": "negligible",
+   "n_parents": 1273
+  },
+  "Delta_M3": {
+   "estimate_pp": 6.389,
+   "ci95_pp": [
+    5.211,
+    7.594
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 1273
+  },
+  "Delta_M4": {
+   "estimate_pp": 2.592,
+   "ci95_pp": [
+    0.628,
+    4.556
+   ],
+   "p_signflip": 0.009499050094990502,
+   "outcome": "negligible",
+   "n_parents": 1273
+  },
+  "I_core": {
+   "estimate_pp": 4.163,
+   "ci95_pp": [
+    1.964,
+    6.494
+   ],
+   "p_signflip": 0.0004999500049995,
+   "outcome": "nonzero_below_or_near_delta",
+   "n_parents": 1273
+  },
+  "I_context": {
+   "estimate_pp": 16.051,
+   "ci95_pp": [
+    13.59,
+    18.487
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 1273
+  },
+  "I_scale": {
+   "estimate_pp": -11.888,
+   "ci95_pp": [
+    -14.218,
+    -9.505
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 1273
+  },
+  "I_ext": {
+   "estimate_pp": 3.797,
+   "ci95_pp": [
+    1.597,
+    6.049
+   ],
+   "p_signflip": 0.0007999200079992001,
+   "outcome": "nonzero_below_or_near_delta",
+   "n_parents": 1273
+  },
+  "Context_M1": {
+   "estimate_pp": 11.259,
+   "ci95_pp": [
+    9.898,
+    12.621
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 1273
+  },
+  "Context_M2": {
+   "estimate_pp": -4.792,
+   "ci95_pp": [
+    -6.834,
+    -2.828
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "nonzero_below_or_near_delta",
+   "n_parents": 1273
+  },
+  "Scale_M1": {
+   "estimate_pp": -5.054,
+   "ci95_pp": [
+    -6.389,
+    -3.666
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 1273
+  },
+  "Scale_M2": {
+   "estimate_pp": 6.834,
+   "ci95_pp": [
+    4.949,
+    8.72
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 1273
+  }
+ },
+ "fieldplant_exact_only_descriptive": {
+  "Delta_M1": {
+   "estimate_pp": 15.278,
+   "ci95_pp": [
+    10.417,
+    20.602
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 144
+  },
+  "Delta_M2": {
+   "estimate_pp": 3.472,
+   "ci95_pp": [
+    -0.694,
+    8.333
+   ],
+   "p_signflip": 0.22377762223777622,
+   "outcome": "inconclusive",
+   "n_parents": 144
+  },
+  "I_core": {
+   "estimate_pp": 11.806,
+   "ci95_pp": [
+    6.019,
+    17.824
+   ],
+   "p_signflip": 0.00029997000299970003,
+   "outcome": "meaningful_difference",
+   "n_parents": 144
+  }
+ },
+ "primary": {
+  "estimand": "I_core",
+  "cohort": "plantdoc_primary",
+  "policy": "resize",
+  "label_space": "full38",
+  "estimate_pp": 9.245,
+  "ci95_pp": [
+   7.399,
+   11.137
+  ],
+  "p_signflip": 9.999000099990002e-05,
+  "outcome": "meaningful_difference",
+  "n_parents": 2185
+ },
+ "secondary": {
+  "Delta_M1": {
+   "estimate_pp": 9.199,
+   "ci95_pp": [
+    8.055,
+    10.313
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 2185,
+   "p_holm": 0.0011998800119988001
+  },
+  "Delta_M2": {
+   "estimate_pp": -0.046,
+   "ci95_pp": [
+    -1.648,
+    1.556
+   ],
+   "p_signflip": 1.0,
+   "outcome": "negligible",
+   "n_parents": 2185,
+   "p_holm": 1.0
+  },
+  "I_context": {
+   "estimate_pp": 1.831,
+   "ci95_pp": [
+    0.015,
+    3.646
+   ],
+   "p_signflip": 0.0494950504949505,
+   "outcome": "negligible",
+   "n_parents": 2185,
+   "p_holm": 0.098990100989901
+  },
+  "I_scale": {
+   "estimate_pp": 7.414,
+   "ci95_pp": [
+    5.553,
+    9.336
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 2185,
+   "p_holm": 0.0011998800119988001
+  },
+  "I_ext": {
+   "estimate_pp": 5.736,
+   "ci95_pp": [
+    3.982,
+    7.506
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 2185,
+   "p_holm": 0.0011998800119988001
+  },
+  "I_core_masked": {
+   "estimate_pp": 8.741,
+   "ci95_pp": [
+    6.773,
+    10.725
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 2185,
+   "p_holm": 0.0011998800119988001
+  },
+  "I_core_letterbox": {
+   "estimate_pp": 2.654,
+   "ci95_pp": [
+    0.87,
+    4.5
+   ],
+   "p_signflip": 0.004399560043995601,
+   "outcome": "negligible",
+   "n_parents": 2185,
+   "p_holm": 0.017598240175982403
+  },
+  "I_core_boxfrac_small": {
+   "estimate_pp": 13.306,
+   "ci95_pp": [
+    9.556,
+    17.01
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 729,
+   "p_holm": 0.0011998800119988001
+  },
+  "I_core_boxfrac_medium": {
+   "estimate_pp": 11.813,
+   "ci95_pp": [
+    8.196,
+    15.43
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 728,
+   "p_holm": 0.0011998800119988001
+  },
+  "I_core_boxfrac_large": {
+   "estimate_pp": 2.61,
+   "ci95_pp": [
+    0.504,
+    4.67
+   ],
+   "p_signflip": 0.015398460153984602,
+   "outcome": "negligible",
+   "n_parents": 728,
+   "p_holm": 0.0461953804619538
+  },
+  "I_core_sensitivity": {
+   "estimate_pp": 8.606,
+   "ci95_pp": [
+    6.795,
+    10.444
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 2448,
+   "p_holm": 0.0011998800119988001
+  },
+  "I_core_fieldplant": {
+   "estimate_pp": 4.163,
+   "ci95_pp": [
+    1.964,
+    6.494
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "nonzero_below_or_near_delta",
+   "n_parents": 1273,
+   "p_holm": 0.0011998800119988001
+  }
+ },
+ "plantdoc_all_contrasts": {
+  "Delta_M1": {
+   "estimate_pp": 9.199,
+   "ci95_pp": [
+    8.055,
+    10.313
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 2185
+  },
+  "Delta_M2": {
+   "estimate_pp": -0.046,
+   "ci95_pp": [
+    -1.648,
+    1.556
+   ],
+   "p_signflip": 1.0,
+   "outcome": "negligible",
+   "n_parents": 2185
+  },
+  "Delta_M3": {
+   "estimate_pp": 7.018,
+   "ci95_pp": [
+    6.026,
+    8.024
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 2185
+  },
+  "Delta_M4": {
+   "estimate_pp": 1.281,
+   "ci95_pp": [
+    -0.229,
+    2.792
+   ],
+   "p_signflip": 0.10318968103189681,
+   "outcome": "negligible",
+   "n_parents": 2185
+  },
+  "I_core": {
+   "estimate_pp": 9.245,
+   "ci95_pp": [
+    7.399,
+    11.137
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 2185
+  },
+  "I_context": {
+   "estimate_pp": 1.831,
+   "ci95_pp": [
+    0.015,
+    3.646
+   ],
+   "p_signflip": 0.04889511048895111,
+   "outcome": "negligible",
+   "n_parents": 2185
+  },
+  "I_scale": {
+   "estimate_pp": 7.414,
+   "ci95_pp": [
+    5.553,
+    9.336
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 2185
+  },
+  "I_ext": {
+   "estimate_pp": 5.736,
+   "ci95_pp": [
+    3.982,
+    7.506
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 2185
+  },
+  "Context_M1": {
+   "estimate_pp": -3.112,
+   "ci95_pp": [
+    -3.966,
+    -2.304
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "negligible",
+   "n_parents": 2185
+  },
+  "Context_M2": {
+   "estimate_pp": -4.943,
+   "ci95_pp": [
+    -6.59,
+    -3.341
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "nonzero_below_or_near_delta",
+   "n_parents": 2185
+  },
+  "Scale_M1": {
+   "estimate_pp": 12.311,
+   "ci95_pp": [
+    11.045,
+    13.563
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "meaningful_difference",
+   "n_parents": 2185
+  },
+  "Scale_M2": {
+   "estimate_pp": 4.897,
+   "ci95_pp": [
+    3.341,
+    6.408
+   ],
+   "p_signflip": 9.999000099990002e-05,
+   "outcome": "nonzero_below_or_near_delta",
+   "n_parents": 2185
+  }
+ }
+}

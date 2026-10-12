@@ -1,0 +1,24 @@
+# Credentials and local/private experimental inputs
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*token*
+secrets/
+private/
+local/
+raw_data/
+checkpoints/
+logits/
+source_manifests/
+# Outputs, caches, and Python bytecode
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+coverage.xml
+.coverage
+*.log
+.tmp/

@@ -1,0 +1,39 @@
+{
+  "provenance": "Methodological specification transcribed from the associated manuscript and supplementary material",
+  "source_dataset": {
+    "name": "PlantVillage",
+    "images": 54305,
+    "class_count": 38,
+    "group_count": 20591,
+    "split_images": {
+      "train": 38001,
+      "validation": 8161,
+      "test": 8143
+    }
+  },
+  "field_evaluation": {
+    "PlantDoc": 2185,
+    "FieldPlant": 1273,
+    "ALDOD_primary": 2984,
+    "total": 6442
+  },
+  "system_labels": {
+    "M1": "MobileNetV3-Large; three CNN seeds",
+    "M2": "DINOv2-S/14; frozen backbone + logistic regression",
+    "M3": "ConvNeXt-Tiny; three CNN seeds",
+    "M4": "DINOv2-B/14; frozen backbone + logistic regression"
+  },
+  "input_size": [
+    224,
+    224
+  ],
+  "crop_box_expansion_fraction_per_side": 0.1,
+  "output_space_classes": 38,
+  "cnn_training_epochs": 20,
+  "probe_regularization_C": 0.1,
+  "resampling": {
+    "unit": "parent photograph",
+    "bootstrap_draws_reported": 10000,
+    "permutation_draws_reported": 10000
+  }
+}

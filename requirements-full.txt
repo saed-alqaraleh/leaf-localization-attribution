@@ -1,0 +1,9 @@
+-r requirements.txt
+# Additional dependencies required by the original training and inference pipeline.
+# Resolve versions against the original trained-checkpoint environment before a full rerun.
+torch
+torchvision
+timm
+scipy
+Pillow
+scikit-learn

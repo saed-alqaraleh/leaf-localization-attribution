@@ -1,0 +1,4 @@
+dataset,photographs,pair,interaction_pp,ci_lower_pp,ci_upper_pp,interpretation,provenance
+PlantDoc,2185,M1-M2,9.2,7.4,11.1,primary_prespecified_system_view_interaction,manuscript_transcription_not_independent_replay
+PlantDoc,2185,M3-M4,5.7,4.0,7.5,independent_second_system_pair,manuscript_transcription_not_independent_replay
+FieldPlant,1273,M1-M2,4.2,2.0,6.5,secondary_external_system_view_interaction,manuscript_transcription_not_independent_replay

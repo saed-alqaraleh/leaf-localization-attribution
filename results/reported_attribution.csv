@@ -1,0 +1,7 @@
+dataset,photographs,model,total_gain_pp,plant_term_pp,condition_term_pp,reported_plant_share_pct,provenance
+PlantDoc,2185,M1,9.2,6.6,2.6,72,manuscript_transcription_not_independent_replay
+PlantDoc,2185,M3,7.0,4.7,2.4,66,manuscript_transcription_not_independent_replay
+FieldPlant,1273,M1,6.2,7.0,-0.8,112,manuscript_transcription_not_independent_replay
+FieldPlant,1273,M3,6.4,5.5,0.9,86,manuscript_transcription_not_independent_replay
+ALDOD,2984,M1,7.0,6.1,0.9,87,manuscript_transcription_not_independent_replay
+ALDOD,2984,M3,7.0,5.1,1.9,73,manuscript_transcription_not_independent_replay

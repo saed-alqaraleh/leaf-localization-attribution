@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the associated research article when using this repository."
+title: "Leaf localization primarily restores plant identity in field disease recognition"
+type: software
+authors:
+  - family-names: "Alqaraleh"
+    given-names: "Saed"
+    affiliation: "Department of Data Science and Artificial Intelligence, College of Information Technology, Mutah University, Karak, Jordan"
+    orcid: "https://orcid.org/0000-0002-7146-3905"
+  - family-names: "Madi"
+    given-names: "Mohammed"
+    affiliation: "Faculty of Computing and IT, Sohar University, Sohar 311, Oman"
+repository-code: "https://github.com/saed-alqaraleh/leaf-localization-attribution"

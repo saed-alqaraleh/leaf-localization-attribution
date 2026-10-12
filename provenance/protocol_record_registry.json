@@ -1,0 +1,22 @@
+{
+  "protocols/protocol1/PROTOCOL_FROZEN.json": {
+    "sha256": "14d5d8ea50c778d50744378e44672e639faa984f485c4954e85f7d5370943ee2",
+    "bytes": 2677,
+    "availability": "author-retained original freeze record"
+  },
+  "protocols/protocol1/sealed_run_record.json": {
+    "sha256": "36b6991992c3969b2caa2f6622c16e7ed08a545cb0cc1d98d0c1802daf8e07a5",
+    "bytes": 3757,
+    "availability": "author-retained original freeze record"
+  },
+  "protocols/protocol2/PROTOCOL_FROZEN.json": {
+    "sha256": "153d607b7f1a803e163720d92e40f749afb4050337c2e04d5d7a0f9feca3e52d",
+    "bytes": 3289,
+    "availability": "author-retained original freeze record"
+  },
+  "protocols/protocol2/sealed_run_record.json": {
+    "sha256": "700462b5578bf4d69eb4cd851851957c5f412b1a4292894585b451d92f679f62",
+    "bytes": 4381,
+    "availability": "author-retained original freeze record"
+  }
+}

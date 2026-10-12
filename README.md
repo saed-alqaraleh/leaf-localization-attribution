@@ -52,4 +52,6 @@ Original photographs, source image manifests, selected box coordinates, restrict
 
 ## Citation
 
-The associated research article is authored by **Saed Alqaraleh** (Mutah University, Jordan) and **Mohammed Madi** (Sohar University, Oman). Citation metadata appear in [`CITATION.cff`](CITATION.cff). Journal publication identifiers and a permanent software archive DOI are not asserted before assignment.
+The associated research article is authored by **Saed Alqaraleh** (Mutah University, Jordan) and **Mohammed Madi** (Sohar University, Oman). Citation metadata for this software release appear in [`CITATION.cff`](CITATION.cff). The frozen research software release (`1.0.0`) is permanently archived on Zenodo: **[10.5281/zenodo.23323042](https://doi.org/10.5281/zenodo.23323042)**. This is the software archive DOI, not a journal-article DOI.
+
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23323042.svg)](https://doi.org/10.5281/zenodo.23323042)
